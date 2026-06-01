@@ -4,3 +4,10 @@ spring:
 
 server:
   port: 8080
+
+aws:
+  region: ${AWS_REGION:eu-central-1}
+  dynamodb:
+    table-name: ${DYNAMODB_TABLE_NAME:Cases}
+  sqs:
+    queue-url: ${SQS_QUEUE_URL:https://sqs.eu-central-1.amazonaws.com/521544431893/Cases-Dispatch}

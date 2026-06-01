@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: dispatch-service
+aws:
+  region: ${AWS_REGION:eu-central-1}
+  sqs:
+    queue-url: ${SQS_QUEUE_URL:https://sqs.eu-central-1.amazonaws.com/521544431893/Cases-Dispatch}
+  dynamodb:
+    table-name: ${DYNAMODB_TABLE_NAME:Cases}
+  sns:
+    topic-arn: ${SNS_TOPIC_ARN:arn:aws:sns:eu-central-1:521544431893:Case-Notifications}

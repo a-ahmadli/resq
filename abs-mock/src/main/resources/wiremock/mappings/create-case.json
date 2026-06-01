@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/RSA/cisl2/assistancecases"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "self": "V231DDE47D221C2731FE970C4EEFF9D36638EAD2E4F7A057CFA217631935FF08F5F27CD07C813B9BEE6649ABB4254CF8",
+      "azCaseNumber": "202110449231"
+    }
+  }
+}
