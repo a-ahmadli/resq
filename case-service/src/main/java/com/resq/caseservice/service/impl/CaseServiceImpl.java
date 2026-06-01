@@ -10,7 +10,6 @@ import com.resq.caseservice.dto.response.CreateCaseResponse;
 import com.resq.caseservice.messaging.SqsPublisher;
 import com.resq.caseservice.repository.CaseRepository;
 import com.resq.caseservice.service.CaseService;
-
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -47,7 +46,8 @@ public class CaseServiceImpl implements CaseService {
     String requestId = UUID.randomUUID().toString();
     try {
       String json = objectMapper.writeValueAsString(request);
-      caseRepository.save(CaseItem.builder()
+      caseRepository.save(
+          CaseItem.builder()
               .caseId(requestId)
               .status(CaseStatus.PENDING_DISPATCH.name())
               .contractNumber(request.getAzCorporateContractNumber())
