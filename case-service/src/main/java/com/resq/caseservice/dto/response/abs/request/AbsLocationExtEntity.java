@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsLocationExtEntity {
-private String classId;
-private String locationCategory;
+  private String classId;
+  private String locationCategory;
 }

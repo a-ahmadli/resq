@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class AbsGeoLocation {
-    private String classId;
-    private String latitude;
-    private String longitude;
-    private String precisionRange;
+  private String classId;
+  private String latitude;
+  private String longitude;
+  private String precisionRange;
 }

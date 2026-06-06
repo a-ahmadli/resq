@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class AbsRole {
-    private String classId;
-    private String roleName;
+  private String classId;
+  private String roleName;
 }

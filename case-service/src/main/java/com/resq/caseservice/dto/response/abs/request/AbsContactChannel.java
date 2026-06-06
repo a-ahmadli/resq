@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsContactChannel {
-    private String classId;
-    private String email;
-    private String phoneNumber;
-    private Boolean mobile;
+  private String classId;
+  private String email;
+  private String phoneNumber;
+  private Boolean mobile;
 }

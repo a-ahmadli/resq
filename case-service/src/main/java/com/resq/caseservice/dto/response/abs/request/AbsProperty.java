@@ -10,13 +10,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsProperty {
-    private String classId;
-    private String propertyType;
-    private String licensePlateNumber;
-    private String vehicleIdentificationNumber;
-    private AbsCharacteristics characteristics;
-    private AbsPropertyExtEntity extEntity;
-    private List<AbsAccessory> accessories;
-    private AbsRegistrationInfo registrationInformation;
-    private AbsMileageRecord mileageRecord;
+  private String classId;
+  private String propertyType;
+  private String licensePlateNumber;
+  private String vehicleIdentificationNumber;
+  private AbsCharacteristics characteristics;
+  private AbsPropertyExtEntity extEntity;
+  private List<AbsAccessory> accessories;
+  private AbsRegistrationInfo registrationInformation;
+  private AbsMileageRecord mileageRecord;
 }

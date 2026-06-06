@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsAccessoryExtEntity {
-    private String classId;
-    private Boolean roofBox;
+  private String classId;
+  private Boolean roofBox;
 }

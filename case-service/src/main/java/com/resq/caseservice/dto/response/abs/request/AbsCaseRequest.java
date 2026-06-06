@@ -1,8 +1,7 @@
 package com.resq.caseservice.dto.response.abs.request;
 
-import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,6 +22,7 @@ public class AbsCaseRequest {
   private String description;
   private String additionalCaseRemarks;
   private AbsExtEntity extEntity;
+
   @JsonProperty("caselocation")
   private AbsCaseLocation caseLocation;
 }

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsMileageRecord {
-    private String classId;
-    private String firstRegistrationDate;
-    private AbsMileageInfo mileageInfo;
+  private String classId;
+  private String firstRegistrationDate;
+  private AbsMileageInfo mileageInfo;
 }

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AbsInterval {
-    private String classId;
-    private String startDateTime;
-    private String endDateTime;
+  private String classId;
+  private String startDateTime;
+  private String endDateTime;
 }

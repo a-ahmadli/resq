@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class AbsRegistrationInfo {
-    private String classId;
-    private AbsAddress registrationOfficeAddress;
-    private String firstRegistrationDate;
+  private String classId;
+  private AbsAddress registrationOfficeAddress;
+  private String firstRegistrationDate;
 }

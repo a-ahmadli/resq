@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AbsCharacteristics {
-    private String classId;
-    private String vehicleBrand;
-    private String vehicleModel;
-    private String fuelType;
-    private String transmissionType;
-    private String vehicleColor;
+  private String classId;
+  private String vehicleBrand;
+  private String vehicleModel;
+  private String fuelType;
+  private String transmissionType;
+  private String vehicleColor;
 }

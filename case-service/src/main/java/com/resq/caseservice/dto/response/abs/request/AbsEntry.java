@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class AbsEntry {
-    private String classId;
-    private String description;
-    private Object value;
+  private String classId;
+  private String description;
+  private Object value;
 }

@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class AbsPropertyExtEntity {
-    private String classId;
-    private String numberOfPassengers;
+  private String classId;
+  private String numberOfPassengers;
 }

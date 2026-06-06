@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class AbsMileageInfo {
-    private String classId;
-    private Integer unitValue;
+  private String classId;
+  private Integer unitValue;
 }
