@@ -20,9 +20,9 @@ public class EnumMapper {
   public static final Map<VehicleType, String> VEHICLE_TYPE_MAP =
       Map.of(
           VehicleType.VT1, "SV1",
-          VehicleType.VT2, "SV2",
+          VehicleType.VT2, "SV3",
           VehicleType.VT3, "HV13",
-          VehicleType.VT4, "CC000000",
+          VehicleType.VT4, "C000000",
           VehicleType.VT5, "KFZP50",
           VehicleType.VT6, "BUS",
           VehicleType.VT7, "KFZP30",
